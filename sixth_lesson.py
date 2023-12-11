@@ -4,9 +4,9 @@ api_url = "https://script.google.com/macros/s/AKfycbwwUrkxV1eN8Y0AGckAlXhzSZpF8S
 
 response = requests.get(url=api_url)
 data_from_api = response.json()
-persons_data = data_from_api.get('data')
+persons_data = data_from_api.get('data23')
 
-if len(persons_data) < 0:
+if persons_data is None or len(persons_data) < 0:
     print('Empty data')
 else:
     large_families_under_35_years_monthly_income = 0
