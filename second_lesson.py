@@ -24,4 +24,6 @@ lifetime_earnings_in_usd = decimal.Decimal(
 
 purchased_cars = lifetime_earnings_in_usd // camry_price
 
-print(f" я, {formatted_name}, зможу заробити лише __{lifetime_earnings_in_usd}__ доларів, що вистачить лише  на __{purchased_cars}__ тойот, мене це не влаштовує, тому я буду змінювати своє життя і буду завзято вивчати програмування!")
+print(
+    f" я, {formatted_name}, зможу заробити лише __{lifetime_earnings_in_usd}__ доларів, що вистачить лише  на __{purchased_cars}__ тойот, мене це не влаштовує, тому я буду змінювати своє життя і буду завзято вивчати програмування!"
+)

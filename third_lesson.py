@@ -1,6 +1,8 @@
-initial_string = "6..58київ\nоДеса     Львів\tжитоМИР      уЖгОрОд ХарКІВ       слАвУтИч74$:?$"
+initial_string = (
+    "6..58київ\nоДеса     Львів\tжитоМИР      уЖгОрОд ХарКІВ       слАвУтИч74$:?$"
+)
 
-cities_array = initial_string.split('     ')
+cities_array = initial_string.split("     ")
 formatted_cities = []
 
 for city in cities_array:
