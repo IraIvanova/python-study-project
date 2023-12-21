@@ -4,7 +4,7 @@ def convert_to_string_list(initial_list: list) -> list[str]:
 
 
 def get_only_numbers(initial_list: list) -> list[int]:
-    filtered_list = filter(lambda i: isinstance(i, int), initial_list)
+    filtered_list = filter(lambda i: type(i) == int, initial_list)
     return list(filtered_list)
 
 
